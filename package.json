@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Responsive Website",
   "main": "index.js",
+  "homepage": "https://JamesHullCS.github.io/my-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o Webstuff/css/ --recursive"
+    "sass": "node-sass -w scss/ -o Webstuff/css/ --recursive",
+    "deploy": "gh-pages -Webstuff"
   },
   "author": "James Hull",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
